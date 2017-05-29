@@ -13,24 +13,90 @@ class ProductTableSeeder extends Seeder
     public function run()
     {
         $product = new Product([
-            'imagePath' => 'https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwje96fhrfXTAhXJlCwKHXgEAMwQjRwIBw&url=https%3A%2F%2Fwww.discovered.us%2Fstories%2Ftags%2Fart-of-handmade&psig=AFQjCNFkOJwoCWFaNk2vTskd-MzZNyDW4A&ust=1495056531803420',
-            'title' => 'Jewelery',
-            'price' => '50'
+            'imagePath' => 'images/prod/Antique-Syrian-Inlaid-Card-Games-Table.jpg',
+            'title' => 'Antique Syrian table',
+            'price' => '120'
         ]);
         $product->save();
 
         $product = new Product([
-            'imagePath' => 'https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwikq_LtrvXTAhVICZoKHWU1DGoQjRwIBw&url=http%3A%2F%2Fkeywordsuggest.org%2Fgallery%2F491389.html&psig=AFQjCNFkOJwoCWFaNk2vTskd-MzZNyDW4A&ust=1495056531803420',
-            'title' => 'Bag',
-            'price' => '70'
+            'imagePath' => 'images/prod/desklamp.jpg',
+            'title' => 'Steampunk desklamp',
+            'price' => '55'
         ]);
         $product->save();
 
         $product = new Product([
-            'imagePath' => 'https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjRrKa8rvXTAhXHhywKHYdHB3QQjRwIBw&url=https%3A%2F%2Fwww.indiamart.com%2Fjivanjyothandicraft%2Fdiwali-handicraft-item.html&psig=AFQjCNFkOJwoCWFaNk2vTskd-MzZNyDW4A&ust=1495056531803420',
-            'title' => 'Cup',
-            'price' => '36'
+            'imagePath' => 'images/prod/Garden-Furniture-Patio-Set-table.jpg',
+            'title' => 'Garden set',
+            'price' => '200'
         ]);
         $product->save();
+
+        $product = new Product([
+            'imagePath' => 'images/prod/Leather-Journal-Handmade.jpg',
+            'title' => 'Leather journal',
+            'price' => '43'
+        ]);
+        $product->save();
+
+        $product = new Product([
+            'imagePath' => 'images/prod/wooden-rack.jpg',
+            'title' => 'Wooden rack',
+            'price' => '17'
+        ]);
+        $product->save();
+
+
+        $product = new Product([
+            'imagePath' => 'images/prod/jewelery1.jpg',
+            'title' => 'Crearstone jewelery',
+            'price' => '29'
+        ]);
+        $product->save();
+
+        $product = new Product([
+            'imagePath' => 'images/prod/leatherstrap.jpg',
+            'title' => 'Leather watch strap',
+            'price' => '14'
+        ]);
+        $product->save();
+
+        $product = new Product([
+            'imagePath' => 'images/prod/jewelery3.jpg',
+            'title' => 'Perl earings',
+            'price' => '20'
+        ]);
+        $product->save();
+
+        $product = new Product([
+            'imagePath' => 'images/prod/towel-template-large.jpg',
+            'title' => 'Shower carpet large',
+            'price' => '23'
+        ]);
+        $product->save();
+
+        $product = new Product([
+            'imagePath' => 'images/prod/circlelamp1.jpg',
+            'title' => 'Circle metal lamp',
+            'price' => '27'
+        ]);
+        $product->save();
+
+        $product = new Product([
+            'imagePath' => 'images/prod/greenstone-earings.jpg',
+            'title' => 'Greenstone earings',
+            'price' => '13'
+        ]);
+        $product->save();
+
+        $product = new Product([
+            'imagePath' => 'images/prod/handmade-bag.jpg',
+            'title' => 'Mesh bag',
+            'price' => '18'
+        ]);
+        $product->save();
+
+
     }
 }

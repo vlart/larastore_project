@@ -241,6 +241,11 @@
 
 .product-name:hover {
   color: #00aaa0;
+  text-decoration: none;
+}
+.product-name:visited {
+  text-decoration: none;
+
 }
 
 .product-name.on-product-page {
@@ -295,6 +300,8 @@
 .add-to-cart-btn:hover {
   background-color: transparent;
   color: #00aaa0;
+  text-decoration: none;
+
 }
 
 .add-to-cart-btn.product-page-btn {
@@ -370,6 +377,12 @@
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+/*.product-desc-block:hover{*/
+  /*text-decoration: no-underline;*/
+/*}*/
+/*.product-desc-block:visited{*/
+  /*text-decoration: no-underline;*/
+/*}*/
 
 .like-block {
   display: -webkit-box;

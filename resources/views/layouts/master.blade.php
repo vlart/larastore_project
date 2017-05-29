@@ -7,10 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title')</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:300,400,600,700&amp;" />
     @yield('styles')
     <link rel="stylesheet" href="{!! URL::to('css/webflow.css') !!}">
-    <link rel="stylesheet" href="{!! URL::to('css/joat.webflow.css') !!}">
     <link rel="stylesheet" href="{!! URL::to('css/normalize.css') !!}">
+    <link rel="stylesheet" href="{!! URL::to('css/joat.webflow.css') !!}">
 
     <style>
         .product-card-image{
